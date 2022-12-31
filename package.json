@@ -1,0 +1,27 @@
+{
+  "name": "hostel-management",
+  "version": "1.0.0",
+  "description": "Login Portal",
+  "main": "server.js",
+  "scripts": {
+    "start":"node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "concurrently": "^5.3.0",
+    "express": "^4.16.4",
+    "gravatar": "^1.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.5",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "validator": "^12.1.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.1",
+    "nodemon": "^1.18.10",
+    "supertest": "^6.0.0"
+  }
+}
